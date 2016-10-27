@@ -1,0 +1,99 @@
+
+#top .inner{width:980px;margin:0 auto;height:110px;line-height:36px;font-size:12px;color:#505050;position:relative;}
+
+.innered{height:36px;}
+
+.h_pic{width:980px;}
+.h_pic .yzl{float:left;}
+.h_pic .dm{float:right;}
+
+/* nav */
+.nav{background:url(../images/icon_global.png) repeat-x;height:47px;}
+.nav .inner ul{display:inline-block;margin-top:-10px;}
+.nav .inner ul li{float:left;height:47px;line-height:47px;}
+.nav .inner ul li a{display:block;height:47px;color:#fff;line-height:47px;padding:0 21px;float:left;}
+.nav .inner ul li a:hover{background: url(../images/icon_global.png) 0px -50px repeat-x;}
+
+/* 路径指示区 */
+.bar{background:url(../images/icon_global.png) 0px -888px repeat-x;}
+.bar .group{position:relative;width:960px;height:45px;margin:0px auto;}
+.bar .group .bread{line-height:40px;color:#949494;}
+.bar .group .bread a{color:#949494;}
+.bar .group .bread .inhere{color:#4b4b4b;}
+
+/* main */
+.main .m_form a,.main em{background:url(../images/service_icon.png) no-repeat;}
+.main .inner{width:960px;margin:0px auto;font:14px/1.5 Microsoft Yahei,Arial;color:#666;padding-bottom:10px;min-height:515px;height:auto;}
+.m_wrap .title{padding:0px 0px 10px 0px;border-bottom:3px solid #ff7900;font-size:18px;color:#ff6600;font-weight:bold;position:relative;}
+
+.m_wrap .title .m_form{position:absolute;width:178px;height:24px;border:1px solid #999;top:3px;right:0;}
+.m_wrap .title .m_form input{border:0;padding:0 5px;width:145px;height:24px;background:#fff;float:left;}
+.m_wrap .title .m_form a{display:inline-block;float:left;background-position:-55px -407px;width:23px;height:23px;}
+
+/* 自助服务 */
+.m_wrap .m_sindex{border:1px solid #e1e1e1;border-top:0;padding:35px 0;margin-bottom:20px;}
+.m_wrap .m_sindex ul{padding:0 34px;}
+.m_wrap .m_sindex ul li{float:left;border-right:1px solid #e1e1e1;width:177px;height:143px;}
+.m_wrap .m_sindex ul li a{display:block;width:96px;margin:0 auto;}
+.m_wrap .m_sindex ul li a em{display:block;height:54px;width:55px;margin:0 auto;}
+
+.m_wrap .m_sindex .icon01 a em{background-position: 0 -434px;}
+.m_wrap .m_sindex .icon01 a em:hover{background-position:0 -489px;}
+.m_wrap .m_sindex .icon02 a em{background-position:-55px -434px;}
+.m_wrap .m_sindex .icon02 a em:hover{background-position:-55px -489px;}
+.m_wrap .m_sindex .icon03 a em{background-position:-110px -434px;}
+.m_wrap .m_sindex .icon03 a em:hover{background-position:-110px -489px;}
+.m_wrap .m_sindex .icon04 a em{background-position:-165px -434px;}
+.m_wrap .m_sindex .icon04 a em:hover{background-position:-165px -489px;}
+.m_wrap .m_sindex .icon05 a em{background-position:-220px -434px;}
+.m_wrap .m_sindex .icon05 a em:hover{background-position:-220px -489px;}
+.m_wrap .m_sindex .icon05{border:none;}
+
+.m_wrap .m_sindex ul li .tit{font-size:18px;font-weight:bold;text-align:center;color:#666;}
+
+.m_wrap .m_sindex ul li .txt{font-size:12px;padding-top:5px;color:#999;}
+
+/* 游戏问题 */
+.m_issue .title{padding:0px 0px 10px 0px;border-bottom:3px solid #ff7900;font-size:18px;color:#ff6600;font-weight:bold;position:relative;}
+.m_issue .title a{position:absolute;right:0;top:5px;font:12px/25px 'sumsin';color:#999;}
+
+.m_issue .m_game{border:1px solid #e1e1e1;border-top:0;padding:30px 0 30px 67px;;margin-bottom:20px;}
+
+.m_issue .m_game a{display:block;width:88px;height:32px;text-align:center;line-height:32px;font-size:12px;float:left;margin-right:17px;background:#f1f1f1;}
+.m_issue .m_game a:hover{color:#fff;background:#ff7800;}
+
+/* 服务指南 */
+.m_fingerpost .title{padding:0px 0px 10px 0px;border-bottom:3px solid #ff7900;font-size:18px;color:#ff6600;font-weight:bold;position:relative;}
+
+.m_fingerpost .m_serve{border:1px solid #e1e1e1;border-top:0;padding:35px 0;margin-bottom:20px;}
+.m_fingerpost .m_serve ul{padding-left:67px;}
+.m_fingerpost .m_serve ul li{float:left;width:260px;height:102px;margin-right:22px;}
+.m_fingerpost .m_serve ul li .bd{border:1px solid #e1e1e1;border-bottom:0;height:81px;}
+.m_fingerpost .m_serve ul li .bd .txt{margin:28px 0 0 22px;float:left;}
+.m_fingerpost .m_serve ul li .bd .txt .tit{font-size:20px;display:block;}
+.m_fingerpost .m_serve ul li .bd .txt .org{margin-top:-5px;display:block;color:#ff6600;}
+.m_fingerpost .m_serve ul li .bd .one{display:inline-block;width:55px;height:55px;float:right;margin:15px 15px 0 0;background-position:0 -544px;}
+.m_fingerpost .m_serve ul li .bd .two{display:inline-block;width:55px;height:55px;float:right;margin:15px 15px 0 0;background-position:-55px -544px;}
+.m_fingerpost .m_serve ul li .bd .three{display:inline-block;width:55px;height:55px;float:right;margin:15px 15px 0 0;background-position:-110px -544px;}
+.m_fingerpost .m_serve ul li .fd{color:#fff;text-align:center;height:20px;background:#ffac7f;display:block;font-weight:700;}
+
+.main .line{height:47px;background:#ff6810;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{background:#030303;}
